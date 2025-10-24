@@ -5,31 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça login - Normatic</title>
     <link rel="shortcut icon" href="source/icone.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        main{
-            width: 700px;
-            height: 300px;
-        }
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/login.css">
 
-        .perfil{
-            width: 180px;
-        }
-        
-        .login{
-            display: flex;
-            margin: 10px;
-            margin-top: 20px;
-        }
-
-        .login-inputs input{
-            width: 460px;
-        }    
-        .login-inputs label{
-            color: white;
-
-        }
-        </style>
 </head>
 <body>
     <header>
@@ -41,18 +19,20 @@
         <h1>Bem vindo! Acesse agora!</h1>
     </header>
     <main>
-        <div class="login">
-            <picture>
-                <img src="source/perfil.png" alt="perfil" class="perfil">
-            </picture>
-            <div class ="login-inputs">
-                <label for="email">Email:</label>
-                <input type="email" name="Email" id="email">
-                <label for="password">Senha:</label>
-                <input type="password" name="Senha" id="password">
+        <div class="box">
+            <div class="login">
+                <picture>
+                    <img src="source/perfil.png" alt="perfil" class="perfil">
+                </picture>
+                <div class ="login-inputs">
+                    <input type="email" name="Email" id="email" placeholder="Email">
+                    <input type="password" name="Senha" id="password" placeholder="Senha">
+                </div>
             </div>
+            <button onclick="validar()">Acessar</button>
+            <h1></h1>
         </div>
-        <a href="choice.html"><button>Acessar</button></a>
     </main>
+    <script src="static/script.js"></script>
 </body>
 </html>

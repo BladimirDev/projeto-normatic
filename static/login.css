@@ -1,0 +1,26 @@
+body{
+    background-image: url(../source/background.png);
+}
+
+main{
+    width: 700px;
+    height: 300px;
+}
+
+.perfil{
+    width: 180px;
+}
+        
+.login{
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.login-inputs input{
+    width: 460px;
+}    
+
+.login-inputs{
+    margin-top: 25px;
+}
