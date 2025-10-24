@@ -3,29 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubra agora seu resultado</title>
+    <title>Faça login - Normatic</title>
     <link rel="shortcut icon" href="source/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <style>
         main{
             width: 700px;
-            height: 350px;
-            
+            height: 300px;
         }
-    </style>
+
+        .perfil{
+            width: 150px;
+        }
+        
+        .login{
+            display: flex;
+        }
+
+        .login-inputs{
+            width: 200px;
+        }    
+        </style>
 </head>
 <body>
     <header>
-        <picture >
+        <picture>
+            <source media="(min-width: )" srcset="" type="image/">
+            <source media="(min-width: )" srcset="" type="image/">
             <img src="source/white-logo-300px.png" alt="logo" class="logo">
         </picture>
+        <h1>Bem vindo! Acesse agora!</h1>
     </header>
     <main>
-        <h1>Descubra seu tratamento ideal!</h1>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <a href="resultado.html"><button>Resultado</button></a>
+        <div class="login">
+            <picture>
+                <img src="source/perfil.png" alt="perfil" class="perfil">
+            </picture>
+            <div class ="login-inputs">
+                <label for="email">Email:</label>
+                <input type="email" name="" id="">
+                <label for="password">Senha:</label>
+                <input type="password" name="" id="">
+            </div>
+        </div>
+        <a href="choice.html"><button>Acessar</button></a>
     </main>
 </body>
 </html>
