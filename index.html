@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça login - Normatic</title>
     <link rel="shortcut icon" href="source/icone.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/login.css">
 
@@ -25,8 +26,14 @@
                     <img src="source/perfil.png" alt="perfil" class="perfil">
                 </picture>
                 <div class ="login-inputs">
-                    <input type="email" name="Email" id="email" placeholder="Email">
-                    <input type="password" name="Senha" id="password" placeholder="Senha">
+                    <div class="input_box">
+                        <input type="email" name="Email" id="email" placeholder="Email">
+                        <i class="bx bxs-user"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" name="Senha" id="password" placeholder="Senha">
+                        <i class="bx bxs-lock-alt"></i>
+                    </div>
                 </div>
             </div>
             <button onclick="validar()">Acessar</button>
