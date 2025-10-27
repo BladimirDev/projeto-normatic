@@ -2,3 +2,14 @@ main{
     width: 700px;
     height: 350px;
 }
+
+.options{
+    background-color: white;
+    display: block;
+    margin: 10px auto;
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
