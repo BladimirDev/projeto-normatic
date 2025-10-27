@@ -71,7 +71,7 @@ button{
     background-color: #2e71a5;
 }
 
-.register-box{
+.main-box{
     background-color: white;
     border-radius: 20px;
     width: 1200px;
@@ -84,7 +84,7 @@ button{
     scrollbar-color: #888 #f1f1f1;
 }
 
-.register-box li{
+.main-box li{
     display: flex;
     border-radius: 10px;
     margin: 15px 0;
