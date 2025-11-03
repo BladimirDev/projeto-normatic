@@ -13,3 +13,8 @@ main{
     border: none;
     padding: 10px;
 }
+
+.options:hover {
+    cursor: pointer;
+    outline: #FF4800 3px solid;;
+}
