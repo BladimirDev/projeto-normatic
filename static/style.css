@@ -81,7 +81,7 @@ button{
 }
 
 .input_box  input:hover {
-    border: #000000 2px solid;
+    outline: #FF4800 3px solid;
 }
 
 .input_box i{
@@ -90,4 +90,9 @@ button{
     top: 45%;
     transform: translateY(-50%);
     font-size: 20px;
+}
+
+button:hover {
+    background-color: #e03e00;
+    cursor: pointer;
 }
